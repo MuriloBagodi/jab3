@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-texture":
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/backgroundHero.jpg')",
+      },
+      colors: {
+        amber: { DEFAULT: "#FFBF00" },
+        header: { DEFAULT: "rgb(25, 25, 36)" },
       },
     },
   },
